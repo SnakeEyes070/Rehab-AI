@@ -1,0 +1,29 @@
+{
+  "rules": {
+    "live_sessions": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$sessionId": {
+        ".validate": "newData.hasChildren(['userId', 'startTime'])",
+        "userId": {
+          ".validate": "newData.val() == auth.uid"
+        },
+        "status": {
+          ".validate": "newData.val() == 'active' || newData.val() == 'completed' || newData.val() == 'paused'"
+        }
+      }
+    },
+    "user_presence": {
+      "$uid": {
+        ".read": "auth != null && auth.uid == $uid",
+        ".write": "auth != null && auth.uid == $uid",
+        "status": {
+          ".validate": "newData.val() == 'online' || newData.val() == 'offline'"
+        },
+        "lastSeen": {
+          ".validate": "newData.isNumber()"
+        }
+      }
+    }
+  }
+}
