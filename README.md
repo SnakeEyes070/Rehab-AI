@@ -1,4 +1,4 @@
-SwasthyaAI: AI Powered Virtual Physiotherapist
+Rehab-AI: AI Powered Virtual Physiotherapist
 Revolutionizing Physical Therapy with Computer Vision
 SwasthyaAI is an intelligent virtual physiotherapist that uses advanced computer vision to provide real-time exercise guidance and form correction. Designed for patients recovering at home, our system offers professional level feedback without the need for constant human supervision.
 
@@ -125,7 +125,7 @@ Installation
 Clone the repository
 
 bash
-git clone https://github.com/yourusername/swasthyaai.git
+git clone https://github.com/ySnakeEyes070/Rehab-AI.git
 cd swasthyaai
 Set up Firebase
 
