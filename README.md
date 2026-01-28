@@ -89,29 +89,6 @@ Tamil (தமிழ்)
 
 Telugu (తెలుగు)
 
-Project Structure
-text
-swasthyaai/
-├── index.html              # Login and registration page
-├── patient-dashboard.html  # Patient exercise interface
-├── doctor-dashboard.html   # Doctor monitoring dashboard
-├── style.css              # Complete styling system
-├── auth.js                # Authentication and user management
-├── patient-script.js      # Patient dashboard functionality
-├── doctor-script.js       # Doctor dashboard functionality
-├── firebase-config.js     # Firebase configuration and setup
-├── ai-physio.js           # AI pose estimation and analysis
-├── languages.js           # Multilingual support system
-├── exercises/            # Exercise configuration files
-│   ├── squat.js
-│   ├── arm-raise.js
-│   └── shoulder-press.js
-├── assets/               # Images, icons, and media
-│   ├── icons/
-│   └── images/
-├── sounds/               # Audio feedback files
-└── manifest.json         # Progressive Web App configuration
-Getting Started
 Prerequisites
 Modern web browser (Chrome 80+, Firefox 75+, Edge 80+)
 
